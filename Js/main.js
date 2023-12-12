@@ -82,11 +82,15 @@ function randomQuote(){
            
         } else {
             randomNumberIndex = randNumber;
+            for (let i = 0; i < random.length; i++) {
+                console.log("i "+random[i]);
+            }
         }
       }
 
         random.push(randNumber);
         document.getElementById("quotes").innerHTML = quotes[randomNumberIndex].quote;
         document.getElementById("author").innerHTML =  quotes[randomNumberIndex].author;
+        
     
 }
