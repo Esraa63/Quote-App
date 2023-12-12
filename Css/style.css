@@ -1,4 +1,4 @@
-.op:after {
+section:after {
     content: "";
     position: absolute;
     top: 0;
